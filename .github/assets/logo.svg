@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Altair logo</title>
+  <desc id="desc">A crystalline diamond, orbit ring, mountain base, and the word Altair.</desc>
+
+  <defs>
+    <linearGradient id="diamondFace" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6f1ec"/>
+      <stop offset="38%" stop-color="#faf7f4"/>
+      <stop offset="100%" stop-color="#d7d3d0"/>
+    </linearGradient>
+    <linearGradient id="diamondEdge" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#2a3344"/>
+      <stop offset="50%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#2d3645"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#2e3b4d"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#1c2433" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <path d="M360 118 L510 266 L420 442 L256 442 L170 265 Z" fill="url(#diamondFace)" stroke="#2b3441" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M360 118 L256 442 L197 320 Z" fill="#dfe3e8" opacity="0.95"/>
+    <path d="M360 118 L420 442 L514 266 Z" fill="#d6dae1" opacity="0.95"/>
+    <path d="M198 320 L256 442 L420 442 L510 266 L360 118 L198 320 Z" fill="none" stroke="#5d6571" stroke-width="8" opacity="0.4"/>
+    <path d="M256 442 L360 118 L420 442 Z" fill="#edf1f4" opacity="0.95"/>
+    <path d="M300 118 L360 74 L420 118 L360 154 Z" fill="#1b2330" opacity="0.9"/>
+    <path d="M153 251 L360 118 L430 146 L616 263" fill="none" stroke="#273241" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    <path d="M156 268 L242 306 L201 345 L115 330 Z" fill="#1d2737" opacity="0.8"/>
+    <path d="M514 270 L613 263 L665 330 L560 342 Z" fill="#1d2737" opacity="0.8"/>
+    <path d="M253 251 L379 179 L416 251 L333 338 Z" fill="#f9f6f3" stroke="#2a3747" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+
+  <g>
+    <path d="M220 355 C 310 260, 470 228, 579 304 A 148 148 0 0 1 565 508 C 444 488, 280 478, 224 406 A 124 124 0 0 1 220 355 Z" fill="none" stroke="#1c2533" stroke-width="18" stroke-linecap="round"/>
+    <path d="M241 402 C 325 355, 447 332, 564 398" fill="none" stroke="#1c2533" stroke-width="18" stroke-linecap="round"/>
+    <path d="M261 451 C 335 421, 435 423, 525 454" fill="none" stroke="#1c2533" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <path d="M170 463 L270 365 L330 430 L390 360 L445 440 L517 385 L590 463 Z" fill="url(#mountain)" opacity="1"/>
+    <path d="M210 470 L290 405 L336 460 L395 415 L462 470 L518 425 L590 470 Z" fill="#3a465d" opacity="0.75"/>
+    <path d="M256 476 L330 420 L376 476 Z" fill="#d1cdbd" opacity="0.4"/>
+    <path d="M420 475 L468 430 L510 475 Z" fill="#d8d7d0" opacity="0.35"/>
+  </g>
+
+  <g>
+    <path d="M567 123 L587 162 L628 182 L587 201 L567 242 L546 201 L505 182 L546 162 Z" fill="#1d2634"/>
+    <path d="M567 142 L580 169 L609 182 L580 195 L567 222 L554 195 L525 182 L554 169 Z" fill="#f8f4ef"/>
+  </g>
+
+  <g>
+    <text x="360" y="620" text-anchor="middle" font-size="188" font-weight="700" font-family="Georgia, 'Times New Roman', serif" letter-spacing="-8" fill="#1a2333">Altair</text>
+    <line x1="180" y1="660" x2="270" y2="660" stroke="#1a2333" stroke-width="3"/>
+    <line x1="450" y1="660" x2="540" y2="660" stroke="#1a2333" stroke-width="3"/>
+    <text x="360" y="685" text-anchor="middle" font-size="22" font-family="Arial, Helvetica, sans-serif" letter-spacing="7" fill="#1a2333">RAILS-STYLE</text>
+    <g transform="translate(360 678)">
+      <path d="M-18 0 L-7 -14 L0 10 L16 -10 L30 0 L15 9 L0 27 L-7 10 Z" fill="#1a2333"/>
+    </g>
+    <text x="360" y="705" text-anchor="middle" font-size="22" font-family="Arial, Helvetica, sans-serif" letter-spacing="5" fill="#1a2333">MODERN PERFORMANCE</text>
+  </g>
+</svg>
